@@ -3,7 +3,6 @@ source :rubygems
 gem "rails", "3.0.7"
 gem "rake", "0.8.7"
 
-gem "compass"
 gem "devise"
 gem "haml"
 gem "simple_form"
@@ -34,3 +33,9 @@ group :development, :test do
   gem "sqlite3-ruby"
   gem "steak"
 end
+
+group :assets do
+  gem "compass-rails"
+end
+
+
