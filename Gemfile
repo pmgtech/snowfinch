@@ -1,6 +1,6 @@
 source :rubygems
 
-gem "rails", "3.0.7"
+gem "rails", "3.1.0"
 gem "rake", "0.8.7"
 
 gem "devise"
@@ -32,6 +32,7 @@ group :development, :test do
   gem "rspec-rails"
   gem "sqlite3-ruby"
   gem "steak"
+  gem 'vagrant', "~> 1.0.0"
 end
 
 group :assets do
